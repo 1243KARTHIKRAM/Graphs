@@ -10,7 +10,7 @@ vector<vector<int>>constructadj(int v,vector<vector<int>>&edges)
         adj[it[1]].push_back(it[0]);
     }
     return adj;
-
+ 
 }
 
 bool isbipartite(int v,vector<vector<int>>&edges)
